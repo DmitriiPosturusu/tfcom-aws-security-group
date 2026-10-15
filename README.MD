@@ -20,7 +20,7 @@ Reusable Terraform child module that creates one AWS security group and optional
 
 ```hcl
 module "security_group" {
-  source = "git::https://github.com/YOUR_ORG/terraform-aws-security-group.git?ref=v1.0.0"
+  source = "git::https://github.com/DmitriiPosturusu/tfcom-aws-security-group.git?ref=release/1.13.1.0"
 
   name   = "demo-ec2-sg"
   vpc_id = aws_vpc.example.id
